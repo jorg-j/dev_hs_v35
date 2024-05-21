@@ -15,7 +15,7 @@ mkdir -p poc
 
 cp buffer/*.gpg poc/
 cd poc
-gpg --output project_20240518_1534.tar.gz --decrypt project_20240518_1534.tar.gz.gpg && tar -xf project_20240518_1534.tar.gz
+gpg --output project_20240521_1750.tar.gz --decrypt project_20240521_1750.tar.gz.gpg && tar -xf project_20240521_1750.tar.gz
 rm *tar*
 echo "Prior poc directory is now in ~/poc_bak"
 
